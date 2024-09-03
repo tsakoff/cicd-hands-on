@@ -12,3 +12,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}" 
+inputs:
+  log-level:
+    type: choice
+    options:
+      - info
+      - warn
+      - error
