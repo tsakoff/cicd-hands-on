@@ -1,8 +1,0 @@
-name: Indent error
-on: push
-jobs:
-  run:
-    runs-on: ubuntu-latest
-      steps:
-      - run: date
-
