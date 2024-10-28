@@ -10,6 +10,6 @@ jobs:
     steps:
       - run: sleep 10 && echo "Second job"
   third:
-    runs-on: ubunts-latest
+    runs-on: ubuntu-latest
     steps:
       - run: sleep 10 && echo "Third job"
