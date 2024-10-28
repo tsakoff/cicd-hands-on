@@ -5,6 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: | # bash tracing option on
-        set -x
-        date
-        hostname
+          set -x
+          date
+          hostname
